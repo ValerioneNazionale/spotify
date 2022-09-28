@@ -1,0 +1,19 @@
+.cliccable{
+  cursor: pointer;
+}
+header{
+  background-color:rgb(16,16,16);
+}
+p{
+  color: rgb(167,167,167);
+}
+p:hover{
+  font-weight: bold;
+  color: aliceblue;
+  transition: all 0.5s;
+}
+.posbot{
+  position: relative;
+  top:-8px;
+}
+

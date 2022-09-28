@@ -1,0 +1,19 @@
+
+<div >
+<form [formGroup] ="formABC">
+
+    <input type="number" class="form-control mb-2" placeholder="id" formControlName="id">
+    <input type="text" class="form-control mb-2 " placeholder="titolo" formControlName="titolo">
+    <input type="text" class="form-control mb-2" placeholder="autore" formControlName="autore">
+    <input type="text" class="form-control mb-2" placeholder="categoria" formControlName="categoria">
+
+  <div class="d-flex justify-content-between">
+    <button (click)="resetForm()" class="btn btn-warning"> Svuota Form</button>
+    <button  (click)="addCard()" class="btn btn-success"><i class="bi bi-plus-circle"></i> Aggiungi</button>
+    <button (click)="updateCard()"class="btn btn-success"><i class="bi bi-plus-circle"></i> Modifica</button>
+  </div>
+
+
+</form>
+</div>
+
